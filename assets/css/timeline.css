@@ -1,0 +1,30 @@
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container_new {
+  width: 100%; /* Full width */
+  /* background-color: #ddd; Grey background */
+  text-align: left;
+  margin-left: 10px;
+}
+.container_new h2{
+    text-align: center;
+}
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  margin-top: -4%;
+  padding-top: 0px; /* Add top padding */
+  padding-bottom: 0px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.wordpress {width: 95%; background-color: #4CAF50;} /* Green */
+.js {width: 75%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.react {width: 50%; background-color: #808080;} /* Dark Grey */
+.mysql{width: 75%; background-color: #f44336;} /* Red */
+.illustrator{width: 50%; background-color: #808080;} /* Dark Grey */
