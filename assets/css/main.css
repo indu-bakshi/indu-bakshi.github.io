@@ -29,7 +29,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
+:root{
+	--primary-color: #111111; 
+	--seconday-color: #ffffff;
+    --font-color: #888888 ;
+    --bg-color:#111111 ;
+    --heading-color: #666666;
+}
+[data-theme="dark"] {
+	--primary-color: #D3D3D3;
+	--seconday-color: #111111;
+    --font-color: #111111;
+    --bg-color: #e2e0e0;
+    --heading-color: #666666;
+}
 body {
 	line-height: 1;
 	
@@ -1926,7 +1939,7 @@ input, select, textarea {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
 			color: #fff;
-			background: #222729 url("images/overlay.png");
+			background: #222729 ;
 		}
 
 		table thead {
@@ -1951,13 +1964,13 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #111111;
 		border: 0;
 		cursor: pointer;
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		/* background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png"); */
 		-moz-transition: background-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out;
@@ -2049,7 +2062,6 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2059,7 +2071,9 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 375px;
+		background-color: #111111;
 	}
+	
 
 		#header .top {
 			-moz-flex-grow: 1;
@@ -2218,7 +2232,7 @@ input, select, textarea {
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 		}
 
 			#main > section.dark {
@@ -2251,25 +2265,25 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color:#000000;
+				background-color:#111111;
 				background-image: url("../../images/banner.jpg");		
 			}
 			
 
 			#main > section.two {
 				/* background-color: #f5fafa; */
-				background-color: #000000;
+				background-color: #111111;
 			}
 
 			#main > section.three {
 				/* background-color: #ecf1f1; */
-				background-color: #000000;
+				background-color: #111111;
 			
 			}
 
 			#main > section.four {
 				/* background-color: #e8edec; */
-				background-color: #000000;
+				background-color: #111111;
 			
 			}
 
@@ -2450,7 +2464,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				background: #111111;
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -2595,6 +2609,7 @@ input, select, textarea {
 				font-size: 14pt;
 			}
 
+			
 			h2 {
 				font-size: 1.5em;
 				letter-spacing: 0;
@@ -2639,5 +2654,35 @@ input, select, textarea {
 				#footer .copyright li:first-child {
 					margin-top: 0;
 				}
+				
 
+	}
+
+	#main > section.two, section.three, section.four, #about {
+	background-color: var(--bg-color) !important;
+	color: var(--font-color);
+	}
+	#portfolio header{
+		background-color: var(--seconday-color);
+		
+	}
+	#portfolio header h3{
+		color: var(--primary-color);
+	}
+	#header{
+		background-color: var(--primary-color);
+		color: var(--seconday-color);
+	}
+	#logo h1, #logo p{
+		color:var(--seconday-color);
+	}
+	
+
+	.top ul li span{
+		color: var(--font-color);
+	}
+	
+	.button.scrolly{
+		background-color: var(--primary-color);
+		color: var(--seconday-color)!important;
 	}
