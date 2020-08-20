@@ -34,7 +34,7 @@ function  myFunction(x) {
         delay: 4.6,
         opacity:0
       });
-      TweenMax.from(".logo, .burger",1,{
+      TweenMax.from(".logo, .burger, .darkmode-icon",1,{
         delay: 4,
         y: "-300px"
       });
@@ -76,7 +76,7 @@ function  myFunction(x) {
           delay: 4.6,
           opacity:0
         });
-        TweenMax.from(".logo, .burger",1,{
+        TweenMax.from(".logo, .burger, .darkmode-icon",1,{
           delay: 4,
           y: "-300px"
         });
