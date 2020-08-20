@@ -7,7 +7,7 @@ function  myFunction(x) {
     // If media query matches
     TweenMax.to("#preloader",2,{
         delay: 2,
-        top: "-100%",
+        top: "-150%",
         ease: Expo.easeInOut
       });
       TweenMax.to(".circle-wrapper-preloader",4,{
