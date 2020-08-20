@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indu Bakshi- Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="p">LOADING</div>
+    </div>
+    <div class="circle-loader">
+    <div class="circle-wrapper-preloader">
+        <div class="circle-rotate-preloader">
+        </div>
+    </div>
+    </div>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <div class="banner">
+        <nav id="banner">
+            <div class="logo">
+                <img id="myImage" src="./pics/white.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#banner">Intro</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#aboutSection">About Me</a></li>
+                <li><a href="#contact">Get in Touch</a></li>
+            </ul>
+            <div class="darkmode-icon">
+                <svg  id='button-toggle'
+    style="width:30px;height:30px" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12,18V6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,15.31L23.31,12L20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31Z" />
+    </svg>
+            </div>    
+            
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line3"></div>
+            </div>
+
+        </nav>
+        
+        <div class="left-banner">
+            <div class="text">
+                <h1>Hi, I am <span style="color: #E52831;">Indu Bakshi</span></h1>
+                <h3 id="h3-one">I <span style="color: #E52831;">Develop</span>, <span style="color: #E52831;">Design</span>
+                    and sometimes</h3>
+                <h3><span style="color: #E52831;">Rescue</span> Website</h3>
+                <div class="btn">
+                    <h4>Have any project</h4>
+                    <a href="#contact"><button>Let's Chat</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="right-banner">
+            
+                <div class="circle-wrapper">
+                    <div class="circle-rotate">
+                    </div>
+                </div>
+                <img id="indu" src="./pics/indu.png" alt="indu">
+            
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <h1 id="portfolio">Portfolio</h1>
+        <h4>I have been working as a website developer from past two years. In this time I have done some crazy
+            projects, be it for professional platforms or for personal interest.
+            Below are some of my recent projects</h4>
+        <div class="container-portfolio">
+            <div class="card">
+                <div class="imgbx">
+                    <a href="https://thereglass.com"><img src="./pics/reglass.png"></a>
+                </div>
+                <div class="content-portfolio">
+                    <a href="https://thereglass.com">
+                        <h2>The Re-Glass</h2>
+                    </a>
+                    <p>It's an e-commerce website made in wordpress. The whole website is designed and developed by me.
+                        It offers all the features that e-commerce website has.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <a href="https://vitpunemun.com"><img src="./pics/vitpunemun.png"></a>
+                </div>
+                <div class="content-portfolio">
+                    <a href="https://vitpunemun.com">
+                        <h2>VITPuneMUN</h2>
+                    </a>
+                    <p>Developed, designed and maintained this MUN website for a year. Tools used for creating this
+                        website were Wordpress, Custom CSS.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <a href="https://indu-bakshi.github.io/Shoes-design/"><img src="./pics/shoes.png"></a>
+                </div>
+                <div class="content-portfolio">
+                    <a href="https://indu-bakshi.github.io/Shoes-design/">
+                        <h2>Nike Design</h2>
+                    </a>
+                    <p>This website is designed and developed to represent the e-commerce store front page layout. It
+                        has Red and Blue modes. Tools used are HTML, CSS, JS, GSAP. </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="./pics/clouds.png">
+                </div>
+                <div class="content-portfolio">
+                    <h2>Clouds</h2>
+                    <p>This website is a demonstration of power of CSS. Using CSS, I have animated the clouds and made
+                        the lamp glowing. Tools used are HTML, CSS, JS, GSAP</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="./pics/port-old.png">
+                </div>
+                <div class="content-portfolio">
+                    <h2>Old Portfolio</h2>
+                    <p>This is my old portfolio. I have used portfolio template and gave some extra features in it
+                        like dark and light mode, animations etc.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="./pics/travel.png">
+                </div>
+                <div class="content-portfolio">
+                    <h2>Travel</h2>
+                    <p>This website is a demonstration of the landing page of travel website showing how to move an
+                        object on a specific path and changing it's properties.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="skills-section">
+
+        <div class="container-skills">
+            <h1 id="skills">Skills</h1>
+            <div class="skills-wrapper">
+                <div class="skills">
+                    <span class="Name">HTML</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 90%;">
+
+                        </div>
+                    </div>
+                    <span class="Value">90%</span>
+                </div>
+                <div class="skills">
+                    <span class="Name">CSS</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 85%;">
+
+                        </div>
+                    </div>
+                    <span class="Value">85%</span>
+                </div>
+                <div class="skills">
+                    <span class="Name">Javascript</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 75%;">
+
+                        </div>
+                    </div>
+                    <span class="Value">75%</span>
+                </div>
+                <div class="skills">
+                    <span class="Name">Wordpress</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 95%;">
+
+                        </div>
+                    </div>
+                    <span class="Value">95%</span>
+                </div>
+                <div class="skills">
+                    <span class="Name">PHP</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 60%;">
+
+                        </div>
+                    </div>
+                    <span class="Value">60%</span>
+                </div>
+                <div class="skills">
+                    <span class="Name">ReactJS</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 60%;">
+
+                        </div>
+                    </div>
+                    <span class="Value">60%</span>
+                </div>
+                <div class="skills">
+                    <span class="Name">MYSQL</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 75%;">
+
+                        </div>
+                    </div>
+                    <span class="Value">75%</span>
+                </div>
+                <div class="skills">
+                    <span class="Name">Illustrator</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 65%;">
+
+                        </div>
+                    </div>
+                    <span class="Value">65%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-section" id="aboutSection">
+        <h1 id="magic">Scroll To See <span style="color: #E52831;">MAGIC</span></h1>
+        <div class="left-about-wrapper">
+        <div class="left-about">
+            
+            <img id="about1" src="./pics/about1.png" >
+            <img id="about2" src="./pics/about2.png" >
+            <img id="about3" src="./pics/about3.png" >
+        
+        </div>
+    </div>
+        <div class="right-about">
+            <h1>About Me</h1>
+            <p>"Life is a mystery and only you can explore it"<br><br>
+    
+                I am currently a Third year student of Computer Engineering in VIT.<br>
+                • Self-motivated, initiative with a high level of energy<br>
+                • Able to inspire, comfort, build self-esteem<br>
+                • Excellent communication skills<br>
+                • Knowledge of developmental theory and corresponding practice of education<br>
+                • Stress and time management ability </p>
+        </div>
+    </div>
+    
+    <div class="contact-section">
+        <h1 id="contact">Get In Touch</h1>
+        <div class="contact-section-inner">
+        <div class="cardBox">
+            <div class="card">
+                <div class="card-front">
+                    <div class="content">
+                        <img src="./pics/white.png" >
+                        <h3>Bakshi Web World</h3>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="./pics/black cropped.png" >
+                            <h2>Indupal Singh Bakshi</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="tel:7006424576">
+                                <span><i class="fas fa-phone"></i></span>
+                                <span>700 642 4576</span>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="mailto:bakshi.webworld@gmail.com?subject = Feedback&body = Message">
+                                <span><i class="fas fa-envelope"></i></span>
+                                <span>bakshi.webworld@gmail.com</span>
+                            </a>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                <span>Pune, Maharashtra</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="icons-new">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/indu.bakshi2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-facebook-f"></span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/indu_bakshi">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-instagram"></span>
+                </a>
+            </li>
+            <li>
+                <a href=https://wa.link/cod6k3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-whatsapp"></span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/indupal-singh-bakshi/">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-linkedin-in"></span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:bakshi.webworld@gmail.com?subject = Feedback&body = Message">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fas fa-envelope"></span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    </div>
+    <footer>
+        <h2>© Bakshi Web World. All rights reserved. Design: Indupal Singh Bakshi</h2>
+    </footer>
+   <script src="./js/preloader.js"></script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5f36afb24c7806354da66d5b/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+   
+    </script>
+    <!--End of Tawk.to Script-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js"></script>
+    <script type="text/javascript">
+
+        document.getElementById('button-toggle').addEventListener('click', () => {
+            document.body.classList.toggle('light');
+            var image = document.getElementById('myImage');
+
+            if (image.src.match("white")) {
+
+                image.src = "./pics/black.png";
+
+            } else {
+
+                image.src = "./pics/white.png";
+
+            }
+        });
+    </script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/animateAbout.js"></script>
+    
+</body>
+</html>
