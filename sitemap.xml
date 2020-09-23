@@ -2,10 +2,10 @@
 
 
 
--<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
--<url>
+<url>
 
 <loc>https://indu-bakshi.github.io/</loc>
 
@@ -15,7 +15,7 @@
 
 </url>
 
--<url>
+<url>
 
 <loc>https://indu-bakshi.github.io/#portfolio/</loc>
 
@@ -24,7 +24,7 @@
 <priority>0.8</priority>
 
 </url>
--<url>
+<url>
 
 <loc>https://indu-bakshi.github.io/#contact/</loc>
 
